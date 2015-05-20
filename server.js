@@ -1,1 +1,1 @@
-var service = require("./lib/service");
+var service = require("./lib/app");

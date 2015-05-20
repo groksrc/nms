@@ -1,1 +1,1 @@
-require('./service.spec.js');
+require('./app.spec.js');

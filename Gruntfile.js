@@ -30,18 +30,18 @@ module.exports = function(grunt) {
 
     browserify: {
       standalone: {
-        src: [ '<%= pkg.name %>.js' ],
-        dest: './test/browserify/<%= pkg.name %>.standalone.js',
+        src: [ 'app.js' ],
+        dest: './test/browserify/app.standalone.js',
         browserifyOptions: {
 	        standalone: '<%= pkg.name %>'
         }
       },
 
       require: {
-        src: [ '<%= pkg.name %>.js' ],
-        dest: './test/browserify/<%= pkg.name %>.require.js',
+        src: [ 'app.js' ],
+        dest: './test/browserify/app.require.js',
         browserifyOptions: {
-          alias: [ './<%= pkg.name %>.js:' ]
+          alias: [ './app.js:' ]
         }
       },
  
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
         src: [ 'test/suite.js' ],
         dest: './test/browserify/browserified_tests.js',
         browserifyOptions: {
-          external: [ './<%= pkg.name %>.js' ],
+          external: [ './app.js' ],
           // Embed source map for tests
           debug: true
         }
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          'test/browserify/<%= pkg.name %>.standalone.min.js':
+          'test/browserify/app.standalone.min.js':
               ['<%= browserify.standalone.dest %>'],
         }
       }

@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         options: {
           reporter: 'spec'
         },
-        src: ['test/**/*.js']
+        src: ['test/**/*.spec.js']
       }
     },
 
@@ -97,7 +97,7 @@ module.exports = function(grunt) {
     'jshint',
     'mochaTest',
     'browserify',
-    //'uglify',
+    'uglify',
     'connect',
     'mocha_phantomjs'
   ]);

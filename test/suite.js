@@ -1,0 +1,1 @@
+require('./service.spec.js');

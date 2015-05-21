@@ -1,7 +1,6 @@
 # Node.js + Mocha.js + Server.js = NMS
 
-This is a shell project designed to get you started building services with Node.js. It also provides a structure and  
-set of conventions that allow you to get up to speed quickly and hopefully write cleaner, more testable code.
+This is a shell project designed to get you started building services with Node.js. It also provides a structure and set of conventions that allow you to get up to speed quickly and hopefully write cleaner, more testable code.
 
 ## Background
 Getting started with Node.js is easy. After you understand that node's execution context is not the same as a browser. And each file has it's own scope. And there's no window object. And it has things like require build in to Node. And on and on.

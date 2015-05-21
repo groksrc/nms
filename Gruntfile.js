@@ -98,7 +98,8 @@ module.exports = function(grunt) {
     'mochaTest',
     'browserify',
     'uglify',
-    'connect',
-    'mocha_phantomjs'
+    // Uncomment to run the tests with phantomjs
+    //'connect',        
+    //'mocha_phantomjs'
   ]);
 };

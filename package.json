@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "<Your Project Name>",
   "version": "1.0.0",
   "description": "A shell project for creating nodejs services and testing with mocha",
   "main": "server.js",
@@ -10,7 +10,7 @@
     "test": "mocha",
     "start": "node server.js"
   },
-  "author": "Drew Cain <groksrc@gmail.com>",
+  "author": "Your Name <your@email.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^2.3.0",

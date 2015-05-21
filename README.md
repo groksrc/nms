@@ -3,7 +3,7 @@
 This is a shell project designed to get you started building services with Node.js. It also provides a structure and set of conventions that allow you to get up to speed quickly and hopefully write cleaner, more testable code.
 
 ## Background
-Getting started with Node.js is easy. After you understand that node's execution context is not the same as a browser. And each file has it's own scope. And there's no window object. And it has things like require build in to Node. And on and on.
+Getting started with Node.js is easy. After you understand that node's execution context is not the same as a browser. And each file has it's own scope. And there's no window object. And it has things like require built in to Node. And on and on.
 
 After you get over that hump you can start writing your service. But doing it this way can lend itself to problems. For instance: given a single small set of requirements, if ten developers each start independently on said requirements to build their own app from scratch chances are you'll wind up with the following:
 

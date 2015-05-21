@@ -1,1 +1,5 @@
-var service = require("./lib/app");
+var service = require("./lib/app")();
+
+service.start();
+
+service.stop();

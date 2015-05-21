@@ -15,7 +15,7 @@ After you get over that hump you can start writing your service. But doing it th
 6. Some tests only run as integration tests, meaning that the server needs to be up in order for the tests to run.
 7. Some will have a ./app directory, some will have a ./lib directory
 8. Some will have a ./test directory, others may have a ./tests directory, others may have no directory for tests.
-9. Some will only support debugging from the command line. Some will only support debugging through console.log.
+9. Some will only support debugging from the command line. Others may allow you to debug with a browser.
 10. Etc, etc, etc.
 
 ## Features / Tenants

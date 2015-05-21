@@ -1,7 +1,7 @@
 {
   "name": "<Your Project Name>",
-  "version": "1.0.0",
-  "description": "A shell project for creating nodejs services and testing with mocha",
+  "version": "0.0.1",
+  "description": "<Your Description>",
   "main": "server.js",
   "directories": {
     "test": "test"

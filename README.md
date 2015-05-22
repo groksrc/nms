@@ -43,6 +43,10 @@ Getting started is as easy as one, two, three...
 1. Clone this repo into a directory of your choosing. Name it whatever you want, this is your project.
 2. Run the setup commands:
     
+    * ```~$ rm -rf .git```  < Fork it
+    
+    * ```~$ git init```
+    
     * ```~$ npm install```
     
     * ```~$ grunt```

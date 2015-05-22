@@ -41,7 +41,13 @@ After you get over that hump you can start writing your service. But doing it th
 Getting started is as easy as one, two, three...
 
 1. Clone this repo into a directory of your choosing. Name it whatever you want, this is your project.
-2. Run the setup commands:
+
+2. Open the package.json and change the following:
+    * Name
+    * Description
+    * Author
+
+3. Run the setup commands:
     
     * ```~$ rm -rf .git```  < Fork it
     
@@ -51,10 +57,7 @@ Getting started is as easy as one, two, three...
     
     * ```~$ grunt```
     
-3. Open the package.json and change the following:
-    * Name
-    * Description
-    * Author
+
 
 There, all done. Start building your app.
 
